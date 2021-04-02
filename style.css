@@ -1,0 +1,44 @@
+h1 {
+    color: white;
+}
+
+/* * {
+    border: solid;
+} */
+
+.header{
+    background-color: cadetblue;
+    position:relative;
+    transform: translate(50%,50%);
+}
+
+.site-description{
+   margin: 30px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
+
+p,h2{
+    text-align: center;
+    padding: 30px;
+}
+a:link{
+    color:blue;
+}
+a:visited{
+    color: blueviolet;
+}
+.item1:hover img{
+    opacity: 0.5;
+}
